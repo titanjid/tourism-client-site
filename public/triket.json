@@ -1,0 +1,44 @@
+[
+    {
+        "place":"Dhaka To Cox's Bazar",
+        "img":"https://sgp1.digitaloceanspaces.com/cosmosgroup/news/7725621_New%20Project%20(4).jpg",
+        "description":"headquarters in southeastern Bangladesh. It is famous mostly for its long natural sandy beach. It is located 150 km (93 mi) south of the city of Chittagong. Cox's Bazar is also known by the name Panowa, which translates literally as yellow flower. Another old name was Palongkee. It has the longest sea beach in the world. ",
+        "price":"$150",
+        "time":" 5h 30m"
+    },
+    {
+        "place":"Dhaka To Saint_Martin",
+        "img":"https://sgp1.digitaloceanspaces.com/cosmosgroup/news/1878484_Saint%20Martins%20Island%20Bangladesh.jpg",
+        "description":"The island used to be an extension of the Teknaf peninsula, but at a later time some portion of this peninsula got submerged and thus the southernmost part of the aforementioned peninsula became an island, and was disconnected from the Bangladesh mainland.",
+        "price":"$90",
+        "time":" 4h 30m"
+    },
+    {
+        "place":"Dhaka To Sylhet_Jaflong",
+        "img":"https://media.tacdn.com/media/attractions-splice-spp-674x446/06/74/2e/1c.jpg",
+        "description":"Jaflong is famous for its stone collections and is home of the Khasia tribe. Jaflong is also a scenic spot nearby amidst tea gardens and rare beauty of rolling stones from hills",
+        "price":"$100",
+        "time":" 3h 32m"
+    },
+    {
+        "place":"Dhaka To Sylhet_Tea_Garden",
+        "img":"https://sgp1.digitaloceanspaces.com/cosmosgroup/news/9782559_best%20tea%20gardens%20Bangladesh.jpg",
+        "description":"It is one of the most beautiful and largest cities in Bangladesh surrounded by the Jaintia, Khasi and Tripura hills",
+        "price":"$100",
+        "time":" 6h 30m"
+    },
+    {
+        "place":"Dhaka To Rangamati",
+        "img":"https://media-eng.dhakatribune.com/uploads/2018/10/web-rangamati-syed-zakir-hossai-1540382280927.jpg",
+        "description":"This place is also famous as the 'Tribal Cultural Institute Museum'. Rangamati Hill District is the natural habitat of various tribes.",
+        "price":"$120",
+        "time":" 2h 32m"
+    },
+    {
+        "place":"Dhaka To Bandarban",
+        "img":"https://amazingtoursbd.com/tour_image/1606908306.jpg",
+        "description":"Bandarban is the pious hub of Theravada Buddhism practiced by tribal communities like Marma or Mogh.",
+        "price":"$170",
+        "time":" 7h 32m"
+    }
+]
