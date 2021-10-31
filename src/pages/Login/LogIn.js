@@ -4,7 +4,7 @@ import './login.css'
 import { useLocation, useHistory } from 'react-router-dom';
 
 const LogIn = () => {
-    const {singInWithGoogle,setUser}=useAuth();
+    const {singInWithGoogle,setUser,loding}=useAuth();
     const location = useLocation();
     const history = useHistory();
     const redirect_uri = location.state?.from || '/home';
@@ -15,6 +15,9 @@ const LogIn = () => {
             setUser(user);
             history.push(redirect_uri);
           })
+    }
+    if(loding){
+        return"loding......"
     }
     return (
         <div className="login">

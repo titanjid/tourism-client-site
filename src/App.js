@@ -1,8 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router,Switch,Route} from 'react-router-dom';
-import Home from './pages/Hone/Home';
+import Home from './pages/Home/Home';
 import Header from './pages/Header/Header';
-import About from './pages/About/About';
 import AddTicket from '../src/addTicket/AddTicket'
 import NotFound from './pages/NotFound/NotFound';
 import LogIn from './pages/Login/LogIn';
@@ -26,9 +25,6 @@ function App() {
          </Route>
          <Route exact path="/addTicket">
            <AddTicket></AddTicket>
-         </Route>
-         <Route exact path="/about">
-           <About></About>
          </Route>
          <PrivateRoute  path="/singleTicket/:id">
            <SingleTicket></SingleTicket>
