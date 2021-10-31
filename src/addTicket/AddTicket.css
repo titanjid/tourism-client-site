@@ -1,0 +1,12 @@
+.add-Ticket form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+    margin-bottom: 185px;
+}
+.add-Ticket form input, textarea{
+    width: 40%;
+    margin-bottom: 10px;
+}

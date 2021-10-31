@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './TicketDetails.css'
 
 const TicketDetails = ({ticketDetails}) => {
-    const {img,_id,place,description,price,time}=ticketDetails;
+    const {img,place,description,price,time,_id}=ticketDetails;
 
     return (
         <>
@@ -14,7 +15,9 @@ const TicketDetails = ({ticketDetails}) => {
                 <p className="card-text text-start">Price: {price}</p>
                 <p className="card-text text-start">Time: {time}</p>
                 <p className="card-text text-start">{description}</p>
-                <button>Boking Ticket</button>
+            <Link to={`/singleTicket/${_id}`}>
+                <button className="btn btn-primary">Boking Ticket</button>
+            </Link>
             </div>
         </div>
         </div>

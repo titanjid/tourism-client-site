@@ -3,9 +3,13 @@ import { BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import Home from './pages/Hone/Home';
 import Header from './pages/Header/Header';
 import About from './pages/About/About';
+import AddTicket from '../src/addTicket/AddTicket'
 import NotFound from './pages/NotFound/NotFound';
 import LogIn from './pages/Login/LogIn';
 import AuthProvider from './Auth/AuthProvider';
+import Footer from './pages/Footer/Footer';
+import SingleTicket from './singleTicket/SingleTicket';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -20,12 +24,15 @@ function App() {
          <Route exact path="/home">
            <Home></Home>
          </Route>
+         <Route exact path="/addTicket">
+           <AddTicket></AddTicket>
+         </Route>
          <Route exact path="/about">
            <About></About>
          </Route>
-         <Route exact path="/">
-           <Home></Home>
-         </Route>
+         <PrivateRoute  path="/singleTicket/:id">
+           <SingleTicket></SingleTicket>
+         </PrivateRoute>
          <Route exact path="/logIn">
            <LogIn></LogIn>
          </Route>
@@ -33,6 +40,7 @@ function App() {
            <NotFound></NotFound>
          </Route>
        </Switch>
+       <Footer></Footer>
       </Router>
       </AuthProvider>
     </div>

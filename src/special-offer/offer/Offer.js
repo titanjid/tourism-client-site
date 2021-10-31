@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../../TicketDetails/TicketDetails.css'
 const Offer = ({offer}) => {
     const {img,place,description,price,time}=offer;

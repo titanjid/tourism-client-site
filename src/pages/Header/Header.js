@@ -8,13 +8,12 @@ import useAuth from './../../Auth/useAuth';
 const Header = () => {
     const {user,logOut}=useAuth();
     return (
-        <div>
-            <Navbar bg="dark" variant="dark">
+            <Navbar bg="dark" variant="dark" sticky="top" >
                 <Container>
                 <Navbar.Brand href="/ ">Tourist Ticket Service</Navbar.Brand>
                 <Nav className="me-auto">
                 <Nav.Link as={HashLink} to="/home">Home</Nav.Link>
-                <Nav.Link as={HashLink} to="/busTicket">BusTicket</Nav.Link>
+                <Nav.Link as={HashLink} to="/addTicket">AddTicketService</Nav.Link>
                 <Nav.Link as={HashLink} to="/about">About</Nav.Link>
                 </Nav>
                 <div>
@@ -29,7 +28,6 @@ const Header = () => {
                    </Navbar.Collapse>
                 </Container>
             </Navbar>
-        </div>
     );
 };
 

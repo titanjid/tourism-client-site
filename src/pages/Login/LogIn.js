@@ -1,5 +1,6 @@
 import React from 'react';
 import useAuth from './../../Auth/useAuth';
+import './login.css'
 import { useLocation, useHistory } from 'react-router-dom';
 
 const LogIn = () => {
@@ -16,8 +17,9 @@ const LogIn = () => {
           })
     }
     return (
-        <div>
-            <button onClick={handleGoogleSingIn}>Google Sing In</button>
+        <div className="login">
+            <h2>Plase Login Tourist Ticket Service Website</h2>
+            <button onClick={handleGoogleSingIn} className="mb-5 mt-5 btn btn-primary">Google Sing In</button>
         </div>
     );
 };
